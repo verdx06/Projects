@@ -7,40 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		213C01B12B7DB9E3001C1A92 /* session2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C01B02B7DB9E3001C1A92 /* session2App.swift */; };
-		213C01B32B7DB9E3001C1A92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C01B22B7DB9E3001C1A92 /* ContentView.swift */; };
-		213C01B52B7DB9E5001C1A92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 213C01B42B7DB9E5001C1A92 /* Assets.xcassets */; };
-		213C01B82B7DB9E5001C1A92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 213C01B72B7DB9E5001C1A92 /* Preview Assets.xcassets */; };
-		213C01BF2B7DB9F1001C1A92 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C01BE2B7DB9F1001C1A92 /* SignIn.swift */; };
-		213C01E92B832B94001C1A92 /* Agree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C01E82B832B94001C1A92 /* Agree.swift */; };
-		213C01EB2B832D8C001C1A92 /* AgreeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C01EA2B832D8C001C1A92 /* AgreeText.swift */; };
-		213C01F12B848B10001C1A92 /* Log_in.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C01F02B848B10001C1A92 /* Log_in.swift */; };
-		213C01F32B8497B1001C1A92 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C01F22B8497B1001C1A92 /* ForgotPassword.swift */; };
-		213C01FC2B85E23D001C1A92 /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C01FB2B85E23D001C1A92 /* Custom.swift */; };
-		21B9E7272BA17C14002AD49B /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B9E7262BA17C14002AD49B /* Validation.swift */; };
-		21B9E72A2BA17D98002AD49B /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B9E7292BA17D98002AD49B /* Verification.swift */; };
-		21B9E72C2BA17DE9002AD49B /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B9E72B2BA17DE9002AD49B /* Code.swift */; };
+		21B9E7192BA03E73002AD49B /* TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B9E7182BA03E73002AD49B /* TimerApp.swift */; };
+		21B9E71B2BA03E73002AD49B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B9E71A2BA03E73002AD49B /* ContentView.swift */; };
+		21B9E71D2BA03E75002AD49B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B9E71C2BA03E75002AD49B /* Assets.xcassets */; };
+		21B9E7202BA03E75002AD49B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B9E71F2BA03E75002AD49B /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		213C01AD2B7DB9E3001C1A92 /* session2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = session2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		213C01B02B7DB9E3001C1A92 /* session2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = session2App.swift; sourceTree = "<group>"; };
-		213C01B22B7DB9E3001C1A92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		213C01B42B7DB9E5001C1A92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		213C01B72B7DB9E5001C1A92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		213C01BE2B7DB9F1001C1A92 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
-		213C01E82B832B94001C1A92 /* Agree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agree.swift; sourceTree = "<group>"; };
-		213C01EA2B832D8C001C1A92 /* AgreeText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreeText.swift; sourceTree = "<group>"; };
-		213C01F02B848B10001C1A92 /* Log_in.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log_in.swift; sourceTree = "<group>"; };
-		213C01F22B8497B1001C1A92 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
-		213C01FB2B85E23D001C1A92 /* Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
-		21B9E7262BA17C14002AD49B /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
-		21B9E7292BA17D98002AD49B /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
-		21B9E72B2BA17DE9002AD49B /* Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code.swift; sourceTree = "<group>"; };
+		21B9E7152BA03E73002AD49B /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B9E7182BA03E73002AD49B /* TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerApp.swift; sourceTree = "<group>"; };
+		21B9E71A2BA03E73002AD49B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		21B9E71C2BA03E75002AD49B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21B9E71F2BA03E75002AD49B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		213C01AA2B7DB9E3001C1A92 /* Frameworks */ = {
+		21B9E7122BA03E73002AD49B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,126 +32,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		213C01A42B7DB9E3001C1A92 = {
+		21B9E70C2BA03E73002AD49B = {
 			isa = PBXGroup;
 			children = (
-				213C01AF2B7DB9E3001C1A92 /* session2 */,
-				213C01AE2B7DB9E3001C1A92 /* Products */,
+				21B9E7172BA03E73002AD49B /* Timer */,
+				21B9E7162BA03E73002AD49B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		213C01AE2B7DB9E3001C1A92 /* Products */ = {
+		21B9E7162BA03E73002AD49B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				213C01AD2B7DB9E3001C1A92 /* session2.app */,
+				21B9E7152BA03E73002AD49B /* Timer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		213C01AF2B7DB9E3001C1A92 /* session2 */ = {
+		21B9E7172BA03E73002AD49B /* Timer */ = {
 			isa = PBXGroup;
 			children = (
-				213C01B02B7DB9E3001C1A92 /* session2App.swift */,
-				213C01B22B7DB9E3001C1A92 /* ContentView.swift */,
-				213C01FD2B85E75B001C1A92 /* ForgotPassword */,
-				213C01EC2B8345B2001C1A92 /* ScreenSign */,
-				21B9E7282BA17D74002AD49B /* Verification */,
-				213C01ED2B848A3E001C1A92 /* ScreenLogin */,
-				213C01C22B7DBB1B001C1A92 /* TextFields */,
-				213C01B42B7DB9E5001C1A92 /* Assets.xcassets */,
-				213C01B62B7DB9E5001C1A92 /* Preview Content */,
+				21B9E7182BA03E73002AD49B /* TimerApp.swift */,
+				21B9E71A2BA03E73002AD49B /* ContentView.swift */,
+				21B9E71C2BA03E75002AD49B /* Assets.xcassets */,
+				21B9E71E2BA03E75002AD49B /* Preview Content */,
 			);
-			path = session2;
+			path = Timer;
 			sourceTree = "<group>";
 		};
-		213C01B62B7DB9E5001C1A92 /* Preview Content */ = {
+		21B9E71E2BA03E75002AD49B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				213C01B72B7DB9E5001C1A92 /* Preview Assets.xcassets */,
+				21B9E71F2BA03E75002AD49B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		213C01C22B7DBB1B001C1A92 /* TextFields */ = {
-			isa = PBXGroup;
-			children = (
-				213C01EA2B832D8C001C1A92 /* AgreeText.swift */,
-				213C01FB2B85E23D001C1A92 /* Custom.swift */,
-				21B9E72B2BA17DE9002AD49B /* Code.swift */,
-			);
-			path = TextFields;
-			sourceTree = "<group>";
-		};
-		213C01EC2B8345B2001C1A92 /* ScreenSign */ = {
-			isa = PBXGroup;
-			children = (
-				213C01E82B832B94001C1A92 /* Agree.swift */,
-				213C01BE2B7DB9F1001C1A92 /* SignIn.swift */,
-			);
-			path = ScreenSign;
-			sourceTree = "<group>";
-		};
-		213C01ED2B848A3E001C1A92 /* ScreenLogin */ = {
-			isa = PBXGroup;
-			children = (
-				213C01F02B848B10001C1A92 /* Log_in.swift */,
-			);
-			path = ScreenLogin;
-			sourceTree = "<group>";
-		};
-		213C01FD2B85E75B001C1A92 /* ForgotPassword */ = {
-			isa = PBXGroup;
-			children = (
-				213C01F22B8497B1001C1A92 /* ForgotPassword.swift */,
-				21B9E7262BA17C14002AD49B /* Validation.swift */,
-			);
-			path = ForgotPassword;
-			sourceTree = "<group>";
-		};
-		21B9E7282BA17D74002AD49B /* Verification */ = {
-			isa = PBXGroup;
-			children = (
-				21B9E7292BA17D98002AD49B /* Verification.swift */,
-			);
-			path = Verification;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		213C01AC2B7DB9E3001C1A92 /* session2 */ = {
+		21B9E7142BA03E73002AD49B /* Timer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 213C01BB2B7DB9E5001C1A92 /* Build configuration list for PBXNativeTarget "session2" */;
+			buildConfigurationList = 21B9E7232BA03E75002AD49B /* Build configuration list for PBXNativeTarget "Timer" */;
 			buildPhases = (
-				213C01A92B7DB9E3001C1A92 /* Sources */,
-				213C01AA2B7DB9E3001C1A92 /* Frameworks */,
-				213C01AB2B7DB9E3001C1A92 /* Resources */,
+				21B9E7112BA03E73002AD49B /* Sources */,
+				21B9E7122BA03E73002AD49B /* Frameworks */,
+				21B9E7132BA03E73002AD49B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = session2;
-			productName = session2;
-			productReference = 213C01AD2B7DB9E3001C1A92 /* session2.app */;
+			name = Timer;
+			productName = Timer;
+			productReference = 21B9E7152BA03E73002AD49B /* Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		213C01A52B7DB9E3001C1A92 /* Project object */ = {
+		21B9E70D2BA03E73002AD49B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					213C01AC2B7DB9E3001C1A92 = {
+					21B9E7142BA03E73002AD49B = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
-			buildConfigurationList = 213C01A82B7DB9E3001C1A92 /* Build configuration list for PBXProject "session2" */;
+			buildConfigurationList = 21B9E7102BA03E73002AD49B /* Build configuration list for PBXProject "Timer" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -177,51 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 213C01A42B7DB9E3001C1A92;
-			productRefGroup = 213C01AE2B7DB9E3001C1A92 /* Products */;
+			mainGroup = 21B9E70C2BA03E73002AD49B;
+			productRefGroup = 21B9E7162BA03E73002AD49B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				213C01AC2B7DB9E3001C1A92 /* session2 */,
+				21B9E7142BA03E73002AD49B /* Timer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		213C01AB2B7DB9E3001C1A92 /* Resources */ = {
+		21B9E7132BA03E73002AD49B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				213C01B82B7DB9E5001C1A92 /* Preview Assets.xcassets in Resources */,
-				213C01B52B7DB9E5001C1A92 /* Assets.xcassets in Resources */,
+				21B9E7202BA03E75002AD49B /* Preview Assets.xcassets in Resources */,
+				21B9E71D2BA03E75002AD49B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		213C01A92B7DB9E3001C1A92 /* Sources */ = {
+		21B9E7112BA03E73002AD49B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21B9E72A2BA17D98002AD49B /* Verification.swift in Sources */,
-				213C01B32B7DB9E3001C1A92 /* ContentView.swift in Sources */,
-				213C01BF2B7DB9F1001C1A92 /* SignIn.swift in Sources */,
-				213C01FC2B85E23D001C1A92 /* Custom.swift in Sources */,
-				213C01F12B848B10001C1A92 /* Log_in.swift in Sources */,
-				21B9E7272BA17C14002AD49B /* Validation.swift in Sources */,
-				213C01E92B832B94001C1A92 /* Agree.swift in Sources */,
-				21B9E72C2BA17DE9002AD49B /* Code.swift in Sources */,
-				213C01B12B7DB9E3001C1A92 /* session2App.swift in Sources */,
-				213C01EB2B832D8C001C1A92 /* AgreeText.swift in Sources */,
-				213C01F32B8497B1001C1A92 /* ForgotPassword.swift in Sources */,
+				21B9E71B2BA03E73002AD49B /* ContentView.swift in Sources */,
+				21B9E7192BA03E73002AD49B /* TimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		213C01B92B7DB9E5001C1A92 /* Debug */ = {
+		21B9E7212BA03E75002AD49B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		213C01BA2B7DB9E5001C1A92 /* Release */ = {
+		21B9E7222BA03E75002AD49B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -340,31 +264,28 @@
 			};
 			name = Release;
 		};
-		213C01BC2B7DB9E5001C1A92 /* Debug */ = {
+		21B9E7242BA03E75002AD49B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"session2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Timer/Preview Content\"";
 				DEVELOPMENT_TEAM = 74A6F279YB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16;
-				"IPHONEOS_DEPLOYMENT_TARGET[sdk=iphoneos*]" = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = verdx.session2;
+				PRODUCT_BUNDLE_IDENTIFIER = verdx.Timer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -372,30 +293,28 @@
 			};
 			name = Debug;
 		};
-		213C01BD2B7DB9E5001C1A92 /* Release */ = {
+		21B9E7252BA03E75002AD49B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"session2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Timer/Preview Content\"";
 				DEVELOPMENT_TEAM = 74A6F279YB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = verdx.session2;
+				PRODUCT_BUNDLE_IDENTIFIER = verdx.Timer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -406,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		213C01A82B7DB9E3001C1A92 /* Build configuration list for PBXProject "session2" */ = {
+		21B9E7102BA03E73002AD49B /* Build configuration list for PBXProject "Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				213C01B92B7DB9E5001C1A92 /* Debug */,
-				213C01BA2B7DB9E5001C1A92 /* Release */,
+				21B9E7212BA03E75002AD49B /* Debug */,
+				21B9E7222BA03E75002AD49B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		213C01BB2B7DB9E5001C1A92 /* Build configuration list for PBXNativeTarget "session2" */ = {
+		21B9E7232BA03E75002AD49B /* Build configuration list for PBXNativeTarget "Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				213C01BC2B7DB9E5001C1A92 /* Debug */,
-				213C01BD2B7DB9E5001C1A92 /* Release */,
+				21B9E7242BA03E75002AD49B /* Debug */,
+				21B9E7252BA03E75002AD49B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 213C01A52B7DB9E3001C1A92 /* Project object */;
+	rootObject = 21B9E70D2BA03E73002AD49B /* Project object */;
 }

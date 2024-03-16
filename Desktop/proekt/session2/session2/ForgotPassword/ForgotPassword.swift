@@ -25,7 +25,7 @@ struct ForgotPassword: View {
                 Custom(placeholder: "***********@mail.com", uptext: "Email Address", secure: "0", text: $email)
                     .padding(.bottom, 50)
                 NavigationLink {
-                    //
+                    Verification()
                 } label: {
                     Text("Send OTP")
                         .foregroundColor(.white)
